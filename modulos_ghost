@@ -1,0 +1,16 @@
+Module                  Size  Used by
+iptable_nat            12288  1
+xt_addrtype            12288  2
+overlay               192512  0
+algif_aead             12288  0
+des3_ede_x86_64        40960  0
+des_generic            12288  0
+libdes                 20480  2 des_generic,des3_ede_x86_64
+algif_skcipher         12288  0
+sha1_generic           12288  0
+algif_hash             16384  0
+af_alg                 32768  3 algif_hash,algif_skcipher,algif_aead
+ghash_clmulni_intel    12288  0
+aesni_intel            94208  0
+fuse                  212992  3
+efivarfs               28672  1
