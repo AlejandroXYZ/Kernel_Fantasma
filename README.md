@@ -98,7 +98,7 @@ Cuando termines de configurar todo, selecciona guardar, todo esto se guardará e
 
 Aquí empezaremos a compilar el kernel ejecutando este comando:
 
-	make -j$(nproc)
+	sudo make -j$(nproc)
 
 **make** : Este comando es una utilidad que determina automaticamente que piezas de un programa necesitan ser recompiladas, en este caso recompilaremos el kernel de linux
 
